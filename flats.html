@@ -1,0 +1,98 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionhome">
+        <div class="bg d-flex flex-column justify-content-end">
+            <div class="bottom ">
+                <h1 class="sun">sunrise avenue</h1>
+                <p>move to what moves you</p>
+                <button class="btn" onclick="display('sectionflatspage')">book flat</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionflatspage">
+        <div class="flats">
+            <h1 class="sun">Sunrise avenue</h1>
+            <div class="3bhk d-flex flex-row">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card1-img.png" onclick="display('sectiontbhk')" class="pic" />
+                <div class="bhk">
+                    <h1>3bhk flat</h1>
+                    <p>this is fully furnished house with handmade furniture including a luxury en-siute facilties pack</p>
+                </div>
+            </div>
+            <div class="2bhk d-flex flex-row">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card2-img.png" onclick="display('sectiontwbhk')" class="pic">
+                <div class="bhk">
+                    <h1>2bhk flat</h1>
+                    <p>this is fully furnished house with handmade furniture including a luxury en-siute facilties pack</p>
+                </div>
+            </div>
+            <div class="4bhk d-flex flex-row">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card3-img.png" onclick="display('sectionfbhk')" class="pic">
+                <div class="bhk">
+                    <h1>4bhk flat</h1>
+                    <p>this is fully furnished house with handmade furniture including a luxury en-siute facilties pack</p>
+                </div>
+            </div>
+            <button class="btn" onclick="display('sectionhome')">back</button>
+        </div>
+    </div>
+    <div id="sectiontbhk">
+        <div class="top">
+            <img src="https://assets.ccbp.in/frontend/static-website/flats-list-d1-img.png" class="img" />
+        </div>
+        <div class="bottom-card">
+            <h1 class="sun">Rs 3000/-</h1>
+            <div class="location d-flex flex-row">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" class="icon" />
+                <P class="des"> D/n 5-2,food street,indore</P>
+            </div>
+            <h1 class="sun">description</h1>
+            <p class="des">this is a fully furnished house with handmade furniture including a luxury en-suite facilities pack</p>
+            <button class="btn">confirm</button>
+            <button class="btn" onclick="display('sectionhome')">back</button>
+        </div>
+    </div>
+    <div id="sectiontwbhk">
+        <div class="top">
+            <img src="https://assets.ccbp.in/frontend/static-website/flats-list-d2-img.png" class="img" />
+        </div>
+        <div class="bottom-card">
+            <h1 class="sun">Rs 2000/-</h1>
+            <div class="location d-flex flex-row">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" class="icon" />
+                <P class="des"> D/n 5-2,food street,indore</P>
+            </div>
+            <h1 class="sun">description</h1>
+            <p class="des">this is a fully furnished house with handmade furniture including a luxury en-suite facilities pack</p>
+            <button class="btn">confirm</button>
+            <button class="btn" onclick="display('sectionhome')">back</button>
+        </div>
+    </div>
+    <div id="sectionfbhk">
+        <div class="top">
+            <img src="https://assets.ccbp.in/frontend/static-website/flats-list-d3-img.png" class="img" />
+        </div>
+        <div class="bottom-card">
+            <h1 class="sun">Rs 4000/-</h1>
+            <div class="location d-flex flex-row">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" class="icon" />
+                <P class="des"> D/n 5-2,food street,indore</P>
+            </div>
+            <h1 class="sun">description</h1>
+            <p class="des">this is a fully furnished house with handmade furniture including a luxury en-suite facilities pack</p>
+            <button class="btn">confirm</button>
+            <button class="btn" onclick="display('sectionhome')">back</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://new-assets.ccbp.in/frontend/content/static-ccbp-ui-kit/static-ccbp-ui-kit.js"></script>
+</body>
+
+</html>
